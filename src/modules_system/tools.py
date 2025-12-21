@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 
-br = f'\n{45*"-"}\n' # this a barra 
+br = f'\n{70*"-"}\n' # this a barra 
 
 def clear():
     OS = sys.platform
@@ -35,9 +35,10 @@ def pathdb():
     return path_db
 
 
-def wait(sec=0):
-    if sec != 0:
+def wait(sec=1):
+    if sec < 2:
         sleep(sec)
-    elif sec == 0:
+    elif sec == 2:
         system('pause')
+
 

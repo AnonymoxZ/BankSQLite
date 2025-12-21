@@ -23,10 +23,12 @@ def screen_client(login_true, name):
         name_client = f'WELCOME {str(name).capitalize()}!'
         BR = (len(name_client)+len(name_client))*"="
         print(f'''{BR}\n\t{name_client}\n{BR}
-        ( 1 ) Deposit
-        ( 2 ) Drop money
-        ( 3 ) Transfer 
-        ( 0 ) Exit account 
+    ( 1 ) Deposit
+    ( 2 ) Balance Inquiry
+    ( 3 ) Transfer 
+    ( 4 ) History Receiveds
+    ( 5 ) History Actions
+    ( 0 ) Exit account 
     ''')
 
 

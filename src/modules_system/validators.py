@@ -10,12 +10,14 @@ def valcpf(cpf:str):
         return False
     else:
         return True
-    
+
 
 def valpassword(pswd:str):
     val1 = pswd.strip()
     length = len(val1)
-    if val1.count(' ') > 1 or length != 8:
+    if val1.count(' ') >= 1 or length < 8:
         return False
     else:
         return True
+
+
