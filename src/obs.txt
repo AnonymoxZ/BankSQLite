@@ -1,0 +1,4 @@
+Notes about:
+
+- The database should only be called in root src
+- File tools.py have an colection of utils dev methods
